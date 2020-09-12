@@ -92,11 +92,16 @@ docs:
   title: STM32F405RG Datasheet
 example_projects: []
 features:
+- "MCU: STM32F405RG, 168MHz, 1024KB FLASH, 196KB RAM"
+- "LED: 4个, D1(Green, PC4), D2(Blue, PA8),D3(Yellow, PC5),D4(Red, PA10)"
+- "Buttons: 2个, K1(Reset), K2(User,PA13)"
+- "Interface: USB、SD Card, IO Expand"
+features_zh:
 - MCU：STM32F405RG，主频 168MHz，1024KB FLASH ，196KB RAM
 - LED：4个，D1（绿色，PC4），D2（蓝色，PA8）,D3（黄色，PC5）,D4（红色，PA10）
 - 按键：2个，K1(复位），K2（用户按键,PA13）
-- 常用接口：USB接口、SD 卡接口，IO扩展口,三轴加速度传感器
+- 常用接口：USB接口、SD 卡接口，IO扩展口
 pkg_type: Board_Support_Packages
 pkg_vendor: 'RealThread'
 pkg_version: 0.1.0
-yaml_version: 1
+yaml_version: 2
